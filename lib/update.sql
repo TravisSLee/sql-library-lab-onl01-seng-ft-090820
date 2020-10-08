@@ -1,3 +1,3 @@
-UPDATE species
-SET name = ''
+UPDATE characters
+SET species = ''
 WHERE condition;
