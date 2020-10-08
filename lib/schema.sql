@@ -22,15 +22,17 @@ CREATE TABLE books (
     series_id INTEGER
 );
 
-CREATE TABLE series (
+CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
-    title TEXT,
-  sub_genre TEXT
+    name TEXT,
+    motto TEXT,
+    species TEXT,
+    author_id INTEGER
 );
 
-CREATE TABLE series (
+CREATE TABLE characters_books (
   id INTEGER PRIMARY KEY,
-    title TEXT,
-  sub_genre TEXT
+    book_id INTEGER,
+    character_id INTEGER
 );
 
