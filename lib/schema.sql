@@ -21,3 +21,16 @@ CREATE TABLE books (
     year INTEGER,
     series_id INTEGER
 );
+
+CREATE TABLE series (
+  id INTEGER PRIMARY KEY,
+    title TEXT,
+  sub_genre TEXT
+);
+
+CREATE TABLE series (
+  id INTEGER PRIMARY KEY,
+    title TEXT,
+  sub_genre TEXT
+);
+
